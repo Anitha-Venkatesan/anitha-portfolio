@@ -1,9 +1,19 @@
 .bio-image {
     width:200px;
     height:200px;
+    margin-left:100px;
     border: double;
     border-color: cornflowerblue;
    
+  }
+  .about-content {
+    width: 100%;
+
+  }
+  .portfolio {
+      margin-bottom: 10px;
+      border-width: 2;
+      border-color: peru;
   }
  
   .col-color {
