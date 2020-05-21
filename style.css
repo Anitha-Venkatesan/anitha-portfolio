@@ -1,10 +1,9 @@
 .bio-image {
-    width:200px;
-    height:200px;
-    margin-left:100px;
-    border: double;
+    width:75%;
+    height:60%;
+    margin-left:50px;
     border-color: cornflowerblue;
-   
+    border: dotted;
   }
   .about-content {
     width: 100%;
@@ -12,8 +11,10 @@
   }
   .portfolio {
       margin-bottom: 10px;
-      border-width: 2;
+  }
+  .bordercolor {
       border-color: peru;
+      border-width: medium;
   }
  
   .col-color {
@@ -33,6 +34,9 @@
   }
   .font-styling{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .contact {
+      margin-left: 350px;
   }
 
   
