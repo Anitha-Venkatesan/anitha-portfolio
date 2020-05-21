@@ -1,0 +1,27 @@
+.bio-image {
+    width:200px;
+    height:200px;
+    border: double;
+    border-color: cornflowerblue;
+   
+  }
+  .col-color {
+      background-color: #85C3E9 ;
+  }
+  .text-align {
+      text-align: center;
+      
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  .tech-color {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orange;
+  }
+  .font-styling{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  
