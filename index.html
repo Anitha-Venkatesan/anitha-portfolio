@@ -7,19 +7,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
     
-    <title>Responsive Portfolio-Portfolio</title>
+    <title>Anitha Portfolio-Portfolio</title>
     <!-- Bootstrap CSS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/e39a5d32af.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <!--<script src="https://kit.fontawesome.com/e39a5d32af.js" crossorigin="anonymous"></script>-->
     <link rel="stylesheet" href="style.css"> 
     </head>
     <body>       
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark mb-5"> 
-            <a class="navbar-brand mb-0" href="index.html"> Anitha Venkatesan</a>
+        <nav class="navbar navbar-expand-sm navbar-links navbar-dark mb-5"> 
+            <a class="navbar-brand mb-0" href="index.html"><h3>Anitha Venkatesan</h3></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -65,9 +69,22 @@
                         <h2 id="portfolio" class="heading">Portfolio</h2>
                     </div>
                 </div>
+
+                <div class="modal fade" id="demo-modal" tabindex="-1" role="dialog" aria-labelledby="demo-modal" aria-hidden="true">
+                    <div class="modal-dialog modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body">
+                          <img id="demo-image"/>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 
                 <div class="row">
-                    <div class="col-md-6  border-transparent">
+                    <div class="col-md-6 border-transparent">
                         <section class="portfolio container w-100">
                             <div class="card bordercolor">
                                 <div class="card-body">
@@ -76,28 +93,13 @@
                                     <p><img src="html5.gif" alt="HTML5 Icon" width="50" height="50"> 
                                         <img src="css3.gif" alt="CSS3 Icon" width="50" height="50">
                                         <img src="javaScript.gif" alt="JAVASRIPT Icon" width="50" height="50">
-                                        <img src="jQuery.gif" alt="JQUERY Icon" width="75" height="75"></p>
+                                        <img src="jQuery.gif" alt="JQUERY Icon" width="75" height="75">
+                                    </p>
                                 </div>
-                                <img class="card-img-bottom" src="demo.gif" alt="satellite">
+                                <img data-toggle="modal" data-target="#demo-modal" class="card-img-bottom image-resize click-image" src="Satellite-Flyover.gif" alt="satellite">
                             </div>
                         </section>
                     </div>  
-                    <div class="col-md-6  border-transparent">
-                        <section class="portfolio container w-100">
-                            <div class="card bordercolor">
-                                <div class="card-body">
-                                    <h5 class="card-title">Code-Quiz</h5><hr>
-                                    <p class="card-text">An Online quiz application that shows the highscores.</p>
-                                    <p><img src="html5.gif" alt="HTML5 Icon" width="50" height="50"> 
-                                        <img src="css3.gif" alt="CSS3 Icon" width="50" height="50">
-                                        <img src="javaScript.gif" alt="JAVASRIPT Icon" width="50" height="50"></p>
-                                </div>
-                                <img class="card-img-bottom" src="demo.gif" alt="satellite">
-                            </div>
-                        </section>
-                    </div>  
-                </div>
-                <div class="row">
                     <div class="col-md-6  border-transparent">
                         <section class="portfolio container w-100">
                             <div class="card bordercolor">
@@ -107,9 +109,29 @@
                                     <p><img src="html5.gif" alt="HTML5 Icon" width="50" height="50"> 
                                         <img src="css3.gif" alt="CSS3 Icon" width="50" height="50">
                                         <img src="javaScript.gif" alt="JAVASRIPT Icon" width="50" height="50">
-                                        <img src="jQuery.gif" alt="JQUERY Icon" width="75" height="75"></p>
+                                        <img src="jQuery.gif" alt="JQUERY Icon" width="75" height="75">
+                                    </p>
                                 </div>
-                                <img class="card-img-bottom" src="demo.gif" alt="satellite">
+                                <img data-toggle="modal" data-target="#demo-modal" class="card-img-bottom image-resize click-image" src="Weather-Dashboard.gif" alt="satellite">
+                            </div>
+                        </section>
+                    </div>  
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-6  border-transparent">
+                        <section class="portfolio container w-100">
+                            <div class="card bordercolor">
+                                <div class="card-body">
+                                    <h5 class="card-title">Code-Quiz</h5><hr>
+                                    <p class="card-text">An Online quiz application that shows the highscores.</p><br>
+                                    <p><img src="html5.gif" alt="HTML5 Icon" width="50" height="50"> 
+                                        <img src="css3.gif" alt="CSS3 Icon" width="50" height="50">
+                                        <img src="javaScript.gif" alt="JAVASRIPT Icon" width="50" height="50">
+                                        
+                                    </p>
+                                </div>
+                                <img data-toggle="modal" data-target="#demo-modal" class="card-img-bottom image-resize click-image" src="Code-Quiz.gif" alt="satellite">
                             </div>
                         </section>
                     </div>  
@@ -121,9 +143,9 @@
                                     <p class="card-text">An application that generates a random password based on user-selected criteria.</p>
                                     <p><img src="html5.gif" alt="HTML5 Icon" width="50" height="50"> 
                                         <img src="css3.gif" alt="CSS3 Icon" width="50" height="50">
-                                        <img src="javaScript.gif" alt="JAVASRIPT Icon" width="50" height="50"></p>
+                                        <img src="javaScript.gif" alt="JAVASRIPT Icon" width="50" height="50"> </p> 
                                 </div>
-                                <img class="card-img-bottom" src="demo.gif" alt="satellite">
+                                <img data-toggle="modal" data-target="#demo-modal" class="card-img-bottom image-resize click-image" src="Password-Generator.gif" alt="password-generator">
                             </div>
                         </section>
                     </div>  
@@ -133,13 +155,9 @@
                         <h2 id="contact" class="heading">Contact</h2>
                     </div>
                 </div>
-                <div class="col-md-5 border border-transparent contact">
-                    <section class="container m-0 w-100 contact">
-                        <div class="row">
-                            <div class="col mt-2 mb-3">
-                                <h4>Get in touch</h4>
-                            </div>
-                        </div>
+                <div class="row">
+                    <div class="col-md-5 offset-md-4 border-transparent">
+                        <section class="contact-me  container m-0 w-100">
                         <div class="row">
                             <div class="col p-2">
                                 <p>Thanks for visiting my profile,Please feel free to contact me, if you have any questions?</p>
@@ -167,10 +185,15 @@
                                 </ul>
                             </div>
                         </div> 
-                    </section>
+                       </section>
+                   </div>
                 </div>
             </div>
             </main>
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+            crossorigin="anonymous"></script>
+            <script src="script.js" ></script> 
           
  </body>
  </html>

@@ -7,26 +7,24 @@
   }
   .about-content {
     width: 100%;
-
+    font-size: 18px;
+    line-height: 1.5;
   }
   .portfolio {
-      margin-bottom: 10px;
+    margin-bottom: 10px;
   }
   .bordercolor {
       border-color: peru;
       border-width: medium;
   }
- 
-  .col-color {
-      background-color: #85C3E9 ;
+  .navbar-links {
+    background-color: peru;
+    font-size: 20px;
   }
-  .text-align {
-      text-align: center;
-      
-  }
-  
   .heading {
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
   .tech-color {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -35,8 +33,16 @@
   .font-styling{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  .contact {
-      margin-left: 350px;
+  /*.image-resize {
+      position:absolute;
+      left:15%;
+      top:35%;
+      width:1000px;
+      height:500px;
+  }*/
+  
+  #demo-image {
+    width: 100%;
   }
 
   
