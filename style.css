@@ -11,7 +11,7 @@
     line-height: 1.5;
   }
   .portfolio {
-    margin-bottom: 10px;
+    margin-bottom: 10px;  
   }
   .bordercolor {
       border-color: peru;
@@ -33,18 +33,15 @@
   .font-styling{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  /*.image-resize {
-      position:absolute;
-      left:15%;
-      top:35%;
-      width:1000px;
-      height:500px;
-  }*/
+  .image-resize {
+    height: 286px;
+      
+  }
   
   #demo-image {
     width: 100%;
   }
-  .resume {
+  .info-resume {
     padding : 30px;   
   }
 

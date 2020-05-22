@@ -6,4 +6,10 @@ $(document).ready(function(){
         $("#demo-image").attr('src',imagesrc);
 
     });
+    $(".resume").on("click",function(){
+
+        
+
+    });
+
 });
