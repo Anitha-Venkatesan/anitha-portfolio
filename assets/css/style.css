@@ -35,15 +35,12 @@
   }
   .image-resize {
     height: 286px;
-    cursor: pointer;
-      
+    cursor: pointer;    
   }
-  
   #demo-image {
     width: 100%;
   }
-  .info {
-   
+  .info { 
     width: 40px;  
   }
   .profile {
@@ -53,7 +50,6 @@
   .profile li {
     line-height: 2;
   }
-
   .profile li i {
     margin-right: 5px;
   }
