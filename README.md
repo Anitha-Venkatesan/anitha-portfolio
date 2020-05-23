@@ -2,10 +2,10 @@
 A portfolio page about Anitha Venkatesan. 
 
 ## Description
-Added a about me and contact information.
-Added references to resume, github and linkedin.
-Added bootcamp homework and projects with demo url and github repository.
-Added GIF images of projects and when you click the GIF it will open a modal to view the demo bigger.
+* Added a about me and contact information.
+* Added references to resume, github and linkedin.
+* Added bootcamp homework and projects with demo url and github repository.
+* Added GIF images of projects and when you click the GIF it will open a modal to view the demo bigger.
 
 ## Technologies Used
 * HTML5
